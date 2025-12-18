@@ -1,1 +1,11 @@
-# CS230-portfolio
+The client for this project was The Gaming Room, a company that created the game Draw It or Lose It. Their original game only ran on Android, which limited their audience. They wanted the game redesigned as a web based, multi platform application that could run on desktop and mobile browsers. The software needed to support multiple games, teams, and players at the same time while enforcing unique names and maintaining consistent game state through a centralized service.
+
+I believe that I did particularly well at breaking down requirements into concrete design decisions. The documentation clearly maps client needs to technical solutions, such as using a singleton GameService to enforce uniqueness and consistency. I also did a strong job explaining the domain model and object relationships, showing how inheritance, composition, and encapsulation reduce redundancy and support scalability.
+
+Working through the design document forced me to think before coding, instead of writing code blindly and fixing problems later. Defining constraints, requirements, and architecture early made it obvious how components should interact. This reduced guesswork and made the implementation phase more straightforward because the structure was already decided.
+
+If I could revise one part of this work, I would improve the system architecture section by adding a simple visual diagram showing the client, API layer, services, and storage components. While the text explains the architecture well, a diagram would make the design easier to understand at a glance for non technical stakeholders.
+
+User needs were interpreted by focusing on accessibility, consistency, and reliability. Players should be able to join games easily from any device without installing software, which drove the decision to use a web based client. Ensuring unique game and team names prevents confusion and broken sessions. Considering user needs is critical because software that ignores them may technically work but still fail in real world use.
+
+I approached software design by starting with requirements first, then identifying constraints, and finally choosing patterns and architectures that fit those constraints. Techniques used included object oriented modeling, platform evaluation, and architectural tradeoff analysis. In the future, I would continue using this structured approach while also incorporating early prototyping and user feedback to validate design assumptions before full implementation.
